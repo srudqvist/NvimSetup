@@ -1,3 +1,6 @@
+
+-- Lua initialization file
+vim.g.nightflyTransparent = true
 require("samuelrudqvist.plugins-setup")
 require("samuelrudqvist.core.options")
 require("samuelrudqvist.core.keymaps")
@@ -11,3 +14,4 @@ require("samuelrudqvist.plugins.lsp.mason")
 require("samuelrudqvist.plugins.lsp.lspsaga")
 require("samuelrudqvist.plugins.lsp.lspconfig")
 require("samuelrudqvist.plugins.flutter")
+
