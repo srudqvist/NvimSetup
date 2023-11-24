@@ -79,7 +79,15 @@ return packer.startup(function(use)
     use({ "glepnir/lspsaga.nvim", branch = "main"})
     use("jose-elias-alvarez/typescript.nvim") -- additional functionality for typescript server (e.g. rename file & update imports)
     use("onsails/lspkind.nvim") -- vs-code like icons for autocompletion
-     
+ 
+    -- flutter
+    use {
+    'akinsho/flutter-tools.nvim',
+    requires = {
+        'nvim-lua/plenary.nvim',
+        'stevearc/dressing.nvim', -- optional for vim.ui.select
+    },
+}
 
     if packer_bootstrap then
         require("packer").sync()
