@@ -1,4 +1,3 @@
-
 -- Lua initialization file
 vim.g.nightflyTransparent = true
 require("samuelrudqvist.plugins-setup")
@@ -15,3 +14,5 @@ require("samuelrudqvist.plugins.lsp.lspsaga")
 require("samuelrudqvist.plugins.lsp.lspconfig")
 require("samuelrudqvist.plugins.flutter")
 require("samuelrudqvist.plugins.lsp.null-ls")
+require("samuelrudqvist.plugins.autopairs")
+require("samuelrudqvist.plugins.treesitter")
