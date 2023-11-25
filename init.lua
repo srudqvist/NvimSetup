@@ -14,4 +14,4 @@ require("samuelrudqvist.plugins.lsp.mason")
 require("samuelrudqvist.plugins.lsp.lspsaga")
 require("samuelrudqvist.plugins.lsp.lspconfig")
 require("samuelrudqvist.plugins.flutter")
-
+require("samuelrudqvist.plugins.lsp.null-ls")

@@ -86,8 +86,13 @@ return packer.startup(function(use)
     requires = {
         'nvim-lua/plenary.nvim',
         'stevearc/dressing.nvim', -- optional for vim.ui.select
-    },
-}
+        },
+    }
+
+    -- formatting & linting
+    use("jose-elias-alvarez/null-ls.nvim")
+    use("jayp0521/mason-null-ls.nvim")
+
 
     if packer_bootstrap then
         require("packer").sync()
