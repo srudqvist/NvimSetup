@@ -2,7 +2,6 @@ vim.g.mapleader = " "
 
 local keymap = vim.keymap -- for conciseness
 
-
 -- general keymaps
 
 keymap.set("i", "jk", "<ESC>")
@@ -40,3 +39,9 @@ keymap.set("n", "<leader>fb", "<cmd>Telescope buffers<cr>") -- list open buffers
 keymap.set("n", "<leader>fh", "<cmd>Telescope help_tags<cr>") -- list available help tags
 keymap.set("n", "<leader>fk", "<cmd>Telescope flutter commands<cr>") -- flutter commands?
 
+-- flutter code actions
+
+keymap.set("n", "fK", "<cmd>lua vim.lsp.buf.hover()<CR>")
+keymap.set("n", "fd", "<cmd>lua vim.lsp.buf.definition()<CR>")
+keymap.set("n", "<leader>fa", "<cmd>lua vim.lsp.buf.code_action()<CR>")
+keymap.set("x", "<leader>fa", "<cmd>lua vim.lsp.buf.range_code_action()<CR>")
