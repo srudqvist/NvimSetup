@@ -5,7 +5,7 @@ end
 
 flutter_tools.setup({
 	widget_guides = {
-		enabled = false,
+		enabled = true,
 	},
 	closing_tags = {
 		-- highlight = "ErrorMsg", -- highlight for the closing tag
