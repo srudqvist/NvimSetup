@@ -12,4 +12,9 @@ flutter_tools.setup({
 		prefix = "//", -- character to use for close tag e.g. > Widget
 		enabled = true, -- set to false to disable
 	},
+	decorations = {
+		statusline = {
+			device = true,
+		},
+	},
 })
