@@ -19,4 +19,4 @@ require("samuelrudqvist.plugins.treesitter")
 require("samuelrudqvist.plugins.gitsigns")
 
 -- Set tabwidth and shiftwidth to 2 for Dart files
-vim.api.nvim_command("autocmd FileType dart setlocal tabstop=2 shiftwidth=2")
+-- vim.api.nvim_command("autocmd FileType dart setlocal tabstop=2 shiftwidth=2")
