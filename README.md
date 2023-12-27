@@ -1,6 +1,6 @@
 # NvimSetup
 
-This is my Neovim setup. That I use on macOS.
+This is my Neovim setup.
 
 ## How to set up for mac
 
