@@ -2,6 +2,8 @@
 
 This is my Neovim setup.
 
+<img width="1403" alt="Neovim" src="https://github.com/srudqvist/NvimSetup/assets/60146956/14837294-8f0c-4000-a711-889aaac1e557">
+
 ## Set up for mac
 - Install [Neovim](https://neovim.io/)
 - Consider using a true color terminal. For mac I use [iTerm2](https://iterm2.com/)
