@@ -1,6 +1,5 @@
 # NvimSetup
-
-This is my Neovim setup.
+This is my Neovim setup. See below for instructions. To get the background color effect, change the transparency in your terminal.
 
 <img width="1403" alt="Neovim" src="https://github.com/srudqvist/NvimSetup/assets/60146956/14837294-8f0c-4000-a711-889aaac1e557">
 
